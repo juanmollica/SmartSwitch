@@ -37,7 +37,7 @@ public class DeleteDialog extends AppCompatDialogFragment {
     }
 
     public interface DeleteDialogListener{
-
+        int a = 5;
     }
 
     @Override
