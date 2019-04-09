@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SmartSwitch</string>
+    <string name="title_activity_main">Start</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_add_device">Add device</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Strings for dialogs -->
+    <string name="dialog_delete_device_title">Delete Device</string>
+    <string name="dialog_delete_device_message">Are you sure you want to delete device?</string>
+
+    <string name="dialog_rename_device_title">Rename Device</string>
+
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="rename">Rename</string>
+
+
+    <!-- Strings for Settings -->
+    <string name="title_timer_on">Timer On</string>
+    <string name="key_timer_on">key_timer_on</string>
+
+    <string name="title_timer_off">Timer Off</string>
+    <string name="key_timer_off">key_timer_off</string>
+
+    <string name="title_logout">Logout</string>
+    <string name="key_logout">key_logout</string>
+
+    <string name="title_activity_settings_fragment">SettingsFragment</string>
+
+</resources>

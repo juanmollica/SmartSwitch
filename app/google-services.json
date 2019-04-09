@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "660865691699",
+    "firebase_url": "https://lightswitchapp-f0806.firebaseio.com",
+    "project_id": "lightswitchapp-f0806",
+    "storage_bucket": "lightswitchapp-f0806.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660865691699:android:e7581d772845ee4f",
+        "android_client_info": {
+          "package_name": "com.example.android.lightswitch_v1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660865691699-11mldfhk9fpsc27bqs3j6103dc76v9qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX_gyVb0cn-Ue3OY_IyTTFyLcy08mjwr8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
