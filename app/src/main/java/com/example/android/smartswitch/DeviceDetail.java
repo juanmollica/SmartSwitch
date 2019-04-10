@@ -29,12 +29,13 @@ public class DeviceDetail extends AppCompatActivity {
     private final String TAG = "DeviceDetail";
     private static int DEVICE_STATE = 0;
 
+    //Firebase
     FirebaseUser mUser = FirebaseAuth.getInstance().getCurrentUser();
     String uid;
 
+    // Mqtt
     MqttAndroidClient mClient;
     final String SERVER_URI = "tcp://m16.cloudmqtt.com:12807";
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -121,7 +122,7 @@ public class DeviceDetail extends AppCompatActivity {
     public void publish(MqttAndroidClient client, String msg, String topic) {
 
         try {
-            byte[] encodedPayload = new byte[0];
+            byte[] encodedPayload;
             encodedPayload = msg.getBytes(StandardCharsets.UTF_8);
             MqttMessage message = new MqttMessage(encodedPayload);
             message.setQos(0);

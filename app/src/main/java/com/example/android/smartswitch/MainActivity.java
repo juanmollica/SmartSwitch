@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity implements RenameDialog.Rena
         mFab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Click action
+                // Add new device
                 Intent intent = new Intent(MainActivity.this, AddDevice.class);
                 startActivity(intent);
 

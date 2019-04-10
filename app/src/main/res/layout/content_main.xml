@@ -42,7 +42,6 @@
                 android:src="@drawable/lightbulb_on_color"
                 android:visibility="invisible"/>
 
-            <!--This TextView holds the weather data for one particular day in the forecast-->
             <TextView
                 android:id="@+id/tv_device_data"
                 style="@style/TextAppearance.AppCompat.Large"
