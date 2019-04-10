@@ -36,8 +36,8 @@ public class DeleteDialog extends AppCompatDialogFragment {
         return builder.create();
     }
 
-    public interface DeleteDialogListener{
-        int a = 5;
+    private interface DeleteDialogListener{
+
     }
 
     @Override
